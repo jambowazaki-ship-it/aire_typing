@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <title>Pic単 タイピング</title>
+    <link rel="icon" href="fabicon.png" type="image/png">
+
+    <style> /*CSS*/
+        :root {
+            --bg:#f7f8fb; --card:#ffffff; --accent:#6b8cff;
+            --ok:#2ecc71; --bad:#ff6b6b; --muted:#6b6f82;
+        }
+        h1 {font-size: 50px; color:black; margin-top: 20px; margin-bottom: 10px; font-family: "Playfair Display";}
+        .P {font-size: 50px; color:#E1A4B3; margin-top: 20px; margin-left: 10px; margin-bottom: 10px; font-family: "Playfair Display";}
+        h2 {font-size: 40px; color: black; margin:10px; font-family: "ヒラギノ丸ゴシック体 W2";}
+        .levels {font-size:20px;}
+        .select-button{width: 300px; margin-top: 30px; margin-left: 10px; border-radius: 20px; cursor: pointer; transition: 0.2s; display: flex; gap: 15px;}
+        .select-button:hover {transform: scale(1.05); transition: 0.1s;}
+
+    </style>
+
+</head>
+
+<body> <!--本体-->
+    <div class="wrap">
+        <header>
+            <h1><span class="P">  P</span> i c 単 </h1>
+            <h2>タイピング練習</h2>
+        </header>
+
+        <a href="5kyuu.html">
+            <img src="5kyuu.png" alt="5級にチャレンジ!!" onclick="grade('5kyuu')" class="select-button">
+        </a>
+        <a href="4kyuu.html">
+            <img src="4kyuu.png" alt="4級にチャレンジ!!" onclick="grade('4kyuu')" class="select-button">
+        </a>
+        <a href="3kyuu.html">
+            <img src="3kyuu.png" alt="3級にチャレンジ!!" onclick="grade('3kyuu')" class="select-button">
+        </a>
+    </div>
+
+</body>
