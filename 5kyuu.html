@@ -33,3 +33,16 @@
     </div>
 
 </body>
+
+
+<script>
+    let words = [];
+
+    fetch("words_5.Json")
+        .then(Response => Response.json())
+        .then(data => {
+            words = data;
+            console.log(words);
+        });
+
+</script>
